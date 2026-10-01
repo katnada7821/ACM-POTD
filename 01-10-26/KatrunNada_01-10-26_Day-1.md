@@ -58,4 +58,7 @@ int main() {
     }
     return 0;
 }
+```
+## Accepted Submission
+![Accepted Submission](14A_Accepted.png)
 
