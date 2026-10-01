@@ -10,10 +10,10 @@ We can cut away all rows above/below and columns left/right that contain no requ
 ## Approach-
 We scan the whole grid and find the first/last row and first/last column where a * appears.
 We keep four boundaries:
-top → first row containing a *
-bottom → last row containing a *
-left → leftmost column containing a *
-right → rightmost column containing a *
+top-first row containing a *
+bottom-last row containing a *
+left-leftmost column containing a *
+right-rightmost column containing a *
 After finding these four boundaries, we simply print the part of the grid between them.
 
 ## Complexity-
